@@ -1,0 +1,67 @@
+$shadow-color : rgba(155, 235, 255, 0.507);
+$font-color : aliceblue;
+$btn-color : rgb(99, 99, 99);
+$card-color : #322b48;
+
+body {
+    color: $font-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #1f1c2c, #928dab);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.maincontainer {
+    width: 90vw;
+    height: 95vh;
+}
+
+.custom-nav {
+    border-radius: 10px;
+    height: 13vh;
+    box-shadow: 0px 10px 20px $shadow-color;
+}
+
+.c-border {
+    border: 1px solid black;                                                // border for testing
+}
+
+.kyncorp {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.custom-btn {
+    color: $font-color;
+    max-width: 100px;
+    height: 40px;
+    box-shadow: 0 0 5px $shadow-color;
+}
+.custom-btn:hover{
+    background-color: $card-color;
+    box-shadow: 0 0 20px $shadow-color;
+}
+
+.custom-card {
+    max-width: 700px;
+    text-transform: capitalize;
+    color: aliceblue;
+    background: $card-color;
+}
+.card-btn {
+    max-width: none;
+}
+.card-btn:hover {
+    color: #000000 !important;
+    background-color: rgb(213, 213, 213) !important;
+    box-shadow: 0 0 30px white;
+}
+
+.copyright {
+    color: snow;
+    text-shadow: 0px 0px $shadow-color;
+}
