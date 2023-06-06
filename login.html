@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>LOGIN</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' type='text/css' href='./assets/bootstrap/css/bootstrap.min.css'>
+    <script src='./assets/bootstrap/js/bootstrap.bundle.min.js'></script>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/login.css'>
+    <script src="./assets/scripts/script1.js" defer></script> 
+    <link rel="shortcut icon" href="./assets/media/images/146-768x51191.png" type="image/x-icon">
+
+</head>
+<body>
+  <div class="container-fliud d-flex flex-column justify-content-center align-items-center h-100 maincontainer">      <!--main div -->
+    <div class="maincard d-flex flex-column justify-content-between">  
+      <div class="card c-card" id="login-card">
+        <div class="card-header">
+          Login Section
+        </div>
+        <div class="card-body">
+          <form>                                                                        <!--form login-->
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">userName</label>
+              <input id="usernameinput" type="text" class="form-control " placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+              <div id="emailHelp" class="form-text card-text">we never share your information ! </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">PassWord</label>
+              <input type="password" class="form-control" placeholder="PassWord" id="exampleInputPassword1">
+            </div>
+            <div id="error">
+              <p id="error-text"></p>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">remember my info</label>
+            </div>
+            <button id="submit" type="submit" class="btn custom-btn">Submit</button>
+          </form>
+          
+        </div>
+      </div>
+      <div class="signup d-flex justify-content-center align-items-center">
+        <h5 class="textsignup card-text">if you don't have any account : </h5>
+        <a href="./signup.html" class="btn card-text "> Sign Up</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -46,6 +46,7 @@ body {
   text-transform: capitalize;
   color: aliceblue;
   background: #322b48;
+  box-shadow: 0 0 30px rgba(155, 235, 255, 0.507);
 }
 
 .card-btn {

@@ -3,6 +3,7 @@ $font-color : aliceblue;
 $btn-color : rgb(99, 99, 99);
 $card-color : #322b48;
 
+
 body {
     color: $font-color;
     margin: 0;
@@ -51,6 +52,7 @@ body {
     text-transform: capitalize;
     color: aliceblue;
     background: $card-color;
+    box-shadow: 0 0 30px $shadow-color;
 }
 .card-btn {
     max-width: none;
